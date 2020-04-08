@@ -52,3 +52,27 @@ img4.addEventListener("mouseover", function() {
 img4.addEventListener("mouseout", function() {
   img4.src = "images/music.png";
 });
+
+
+var bigimg = document.getElementById("bigimg");
+var smallimg1 = document.getElementById("smallimg1");
+var smallimg2 = document.getElementById("smallimg2");
+var smallimg3 = document.getElementById("smallimg3");
+var smallimg4 = document.getElementById("smallimg4");
+
+smallimg1.addEventListener("click", function() {
+  bigimg.src = "images/Schermafbeelding 2020-04-07 om 12.43.35.png";
+});
+
+smallimg2.addEventListener("click", function() {
+  bigimg.src = "images/Schermafbeelding 2020-04-07 om 12.43.56.png";
+});
+
+smallimg3.addEventListener("click", function() {
+  bigimg.src = "images/Schermafbeelding 2020-04-07 om 12.44.58.png";
+});
+
+smallimg4.addEventListener("click", function() {
+  bigimg.src = "images/Schermafbeelding 2020-04-07 om 12.44.22.png";
+});
+

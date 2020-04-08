@@ -17,14 +17,14 @@
             <div class="imgwrap"></div>
             <nav class="navbar"> 
                 <a href="#product">Our product</a>
-                <a href="#use">How to use</a>
                 <a href="#works">How it works</a>
+                <a href="#use">interaction</a>
                 <a href="#visuals">Visuals</a>
                 <a href="#contact">Contact</a>
             </nav>
             <button class="slidebutton" onclick="plusDivs(-1)">&#10094;</button>
             <button class="slidebutton rightbut" onclick="plusDivs(+1)">&#10095;</button>
-            <p class="title">RoboBuddy</p>
+            <img class="logoh" src="images/buddywitdik.png" alt="robobuddy logo">
             <p class="slogan">Get you through the night without a fright</p>
         </div>
     </header>
@@ -69,32 +69,84 @@
                 </div>
             </section>
         </section>
-        <section id="use" class="use"> <!-- how to use -->
-            <h1>How to use RoboBuddy</h1>
-        </section>
-        <section id="works" class="works"> <!-- how it works -->
+
+        <section id="works" class="works"> <!-- video -->
             <h1>How does RoboBuddy work?</h1>
             <p>A clear video about Robobuddy. We explain you his features and how they work. We also briefly
                 explain you how to use the robot. you will get to know Buddy a lot better!
             </p>
             <div class="hdiv">
-                <iframe src="https://youtu.be/3m2sow0GYvs"></iframe>
-                <img src="images/buddyart.png" alt="robobuddy drawing"> 
+                <iframe src="https://www.youtube.com/embed/3m2sow0GYvs" allowfullscreen></iframe>
             </div>
         </section>
+
+        <section id="use" class="use"> <!-- interactions -->
+            <h1>Robobuddy's interaction</h1>
+            <div class="udiv">
+                <img src="images/interactie1.png" alt="interaction 1">
+                <img src="images/interactie2.gif" alt="interaction 2">
+                <img src="images/interactie3.gif" alt="interaction 3">
+                <img src="images/interactie4.png" alt="interaction 4">
+                <img src="images/interactie5.gif" alt="interaction 5">
+                <img src="images/interactie6.png" alt="interaction 6">
+                <img src="images/interactie7.gif" alt="interaction 7">
+                <img src="images/interactie8.gif" alt="interaction 8">
+            </div>
+        </section>
+
         <section id="visuals" class="visuals"> <!-- visuals -->
-            <div class="div1">
-                
+            <div class="vdiv1">
+                <h1>Visuals of Robobuddy</h1>
+                <p>We have created a 3D model of our product. This shows the good proportions of RoboBuddy 
+                    and you can get the look and feel of it. You can see the heart-rate bracelet and the additional power point,
+                    his audio point, which is inside the heart, and his friendly digital face.
+                </p>
+                <p>Disclaimer: the colors you see in our 3D-model are not the original colors. The final product will consist
+                     out of white and grey shades.
+                </p>
+                <img src="images/buddy logo.png" alt="robobuddy logo">
             </div>
-            <div class="div2">
-                <p>Visuals</p>
-                
+            <div class="vdiv0">
+                <img id="bigimg" class="vimg" src="images/Schermafbeelding 2020-04-07 om 12.43.35.png" alt="3D model">
+                <div class="vdiv">
+                    <img id="smallimg1" src="images/Schermafbeelding 2020-04-07 om 12.43.35.png" alt="3D model">
+                    <img id="smallimg2" src="images/Schermafbeelding 2020-04-07 om 12.43.56.png" alt="3D model">
+                    <img id="smallimg3" src="images/Schermafbeelding 2020-04-07 om 12.44.58.png" alt="3D model">
+                    <img id="smallimg4" src="images/Schermafbeelding 2020-04-07 om 12.44.22.png" alt="3D model">
+                </div>
             </div>
         </section>
+
         <section id="contact" class="contact"> <!-- contact -->
-
+            <h1 class="ch1">Get in touch with us</h1>
+            <div class="cdiv">
+                <div class="formdiv">
+                    <p class="formp1">Questions or Feedback?</p>
+                    <p class="formp2">Please mail us!</p>
+                    <form>
+                        <input class="mail" type="email" placeholder="Email" required>
+                        <textarea class="textarea" placeholder="Your message" required></textarea>
+                        <a class="button" href="#contact">Send</a>
+                    </form>
+                </div>
+                
+                <div class="contdiv">
+                    <p>RoboBuddy@gmail.com</p>
+                    <p>Wibautstraat 16 </p>
+                    <p>1091 GM Amsterdam</p>
+                    <p>The netherlands</p>
+                    <img src="images/buddy logob.png" alt="robobuddy logo">
+                </div>
+                <div>
+                    <p class="p1">Our creators</p>
+                    <p class="p2">Daan Zwarthoed</p>
+                    <p class="p2">Palenque de Groot</p>
+                    <p class="p2">Samantha van Zandwijk</p>
+                    <p class="p2">Tim van der Ham</p>
+                </div>
+            </div>
+            <p class="cr">© Copyright 2020 RoboBuddy</p>
         </section>
-
     </main>
     <script src="script/script.js"></script>
 </body>
